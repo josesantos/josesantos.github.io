@@ -2,7 +2,7 @@
 /* CSS Document */
 /* This is a style sheet for Jose Marcel Santos's portfolio */
 body{
-	font-family:"segoe ui",Helvetica, Arial, Sans-Serif;
+	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
 	color: #000;
 	font-size:18px;
 	background-color:#FFF;
@@ -12,8 +12,15 @@ body{
 }
 div.header{
 	text-align:left;
-	font-size:42px;
+	font-size:48px;
 	font-weight:200;
+}
+div.bar{
+	position:relative;
+	background-color:black;
+	height:1px;
+	width:400px;
+
 
 }
 a{
