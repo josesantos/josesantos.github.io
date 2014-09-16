@@ -15,6 +15,10 @@ div.header{
 	font-size:48px;
 	font-weight:200;
 }
+a{
+	color:#19a2de;
+}
+/* div for underline, doesn't scale properly on mobile, temporarily removed 
 div.bar{
 	position:relative;
 	background-color:black;
@@ -23,6 +27,4 @@ div.bar{
 
 
 }
-a{
-	color:#19a2de;
-}
+*/
