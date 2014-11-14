@@ -6,6 +6,7 @@ body{
 	color: #FFF;
 	font-size:18px;
 	background-image:url("images/background.jpg");
+	background-size:contain; 
 	background-repeat:no-repeat;
 	background-position:top right;
 	background-attachment:fixed;
@@ -16,7 +17,7 @@ div.box{
 	left:950px;
 	background-color:#686868;
 	width: 500px;
-	height:220px;
+	height:230px;
 	opacity: 0.9;
 	filter: alpha(opacity=90); /* For IE8 and earlier */
 }
