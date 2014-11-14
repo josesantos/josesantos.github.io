@@ -1,6 +1,6 @@
 josesantos.github.io
 ====================
 
-This is currently a temporary homepage. In the future, this project will host my portfolio. 
+This is currently a temporary homepage. In the future, the page will include a portfolio of my projects. The design is inspired by about.me and Microsoft's Modern/Metro design language. 
 
-The host page can be found at: http://josesantos.github.io 
+Check it out at: http://josesantos.github.io 

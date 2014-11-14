@@ -3,20 +3,35 @@
 /* This is a style sheet for Jose Marcel Santos's portfolio */
 body{
 	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
-	color: #000;
+	color: #FFF;
 	font-size:18px;
-	background-color:#FFF;
+	background-image:url("images/background.jpg");
 	background-repeat:no-repeat;
 	background-position:top right;
 	background-attachment:fixed;
 }
+div.box{
+	position:relative;
+	top:150px;
+	left:950px;
+	background-color:#686868;
+	width: 500px;
+	height:220px;
+	opacity: 0.9;
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+}
 div.header{
-	text-align:left;
+	position:relative;
+	left:10px;
 	font-size:48px;
 	font-weight:200;
 }
+div.boxtext{
+	position:relative;
+	left:10px;
+}
 a{
-	color:#19a2de;
+	color:#FFF;
 }
 /* div for underline, doesn't scale properly on mobile, temporarily removed 
 div.bar{
