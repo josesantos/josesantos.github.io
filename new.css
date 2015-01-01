@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+/* This is a style sheet for Jose Marcel Santos's portfolio */
+body{
+	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
+	color: #FFF;
+	font-size:18px;
+	background-image:url("images/background.jpg");
+	background-size:cover; 
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	margin:0;
+}
+
+div.box{
+	position:relative;
+	float:left;
+	top:0px;
+	left:0px;
+	background-color:#686868;
+	width:320px;
+	height:240px;
+	opacity: 0.9;
+	filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+
+div.box2{
+	float:left;
+	position:relative;
+	background-color:#19a2de;
+	width:320px;
+	height:240px;
+	
+}
+@media screen and (min-width: 321px) {
+    div.box {
+        width: 50%;
+        height:100vh;
+    }
+    div.box2{
+    	width:50%;
+    	height:100vh;
+    }
+}
+div.header{
+	position:relative;
+	left:10px;
+	font-size:48px;
+	font-weight:200;
+}
+div.boxtext{
+	position:relative;
+	left:10px;
+}
+a{
+	color:#FFF;
+}
+/* div for underline, doesn't scale properly on mobile, temporarily removed 
+div.bar{
+	position:relative;
+	background-color:black;
+	height:1px;
+	width:400px;
+
+
+}
+*/
