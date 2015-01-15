@@ -12,15 +12,18 @@ body{
 	background-attachment:fixed;
 	margin:0;
 }
-
+div.main {
+	width:100%;
+	margin:0;
+}
 div.box{
 	position:relative;
 	float:left;
 	top:0px;
 	left:0px;
 	background-color:#686868;
-	width:320px;
-	height:240px;
+	width:100%;
+	height:500px;
 	opacity: 0.9;
 	filter: alpha(opacity=90); /* For IE8 and earlier */
 }
@@ -30,11 +33,12 @@ div.box2{
 	float:left;
 	position:relative;
 	background-color:#19a2de;
-	width:320px;
-	height:240px;
+	width:100%;
+	height:320px;
 	
 }
-@media screen and (min-width: 321px) {
+
+@media screen and (min-width: 800px) {
     div.box {
         width: 50%;
         height:100vh;
