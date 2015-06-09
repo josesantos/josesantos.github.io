@@ -5,11 +5,13 @@ body{
 	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
 	color: #FFF;
 	font-size:18px;
+
 	background-image:url("images/background.jpg");
 	background-size:cover; 
 	background-repeat:no-repeat;
 	background-position:top right;
 	background-attachment:fixed;
+	
 }
 div.box{
 	position:fixed;
