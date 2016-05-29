@@ -12,8 +12,8 @@ body {
 	background-attachment:fixed;
 	margin:0;
 	padding:0;
+	
 }
-
 #intro{
 	position:relative;
 	top:150px;
@@ -21,14 +21,24 @@ body {
 	width:100%;
 	text-align: center;
 }
-.name{
+.title{
 	position:relative;
-	font-size:60px;
+	font-size:50px;
 	font-weight:bold;
 }
 .introtext{
 	position:relative;
 	left:10px;
+}
+.whitebox {
+	position:relative;
+	height:100px;
+	background-color:#FFF;
+	border:none;
+	color:#353535;
+	text-align:center;
+
+
 }
 a{
 	color:#FFF;
