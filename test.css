@@ -5,7 +5,7 @@ body {
 	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
 	color: #FFF;
 	font-size:20px;
-	background-image:url("images/background.jpg");
+	background-image:url("images/background-m.jpg");
 	background-size:cover; 
 	background-repeat:no-repeat;
 	background-position:top;
@@ -16,7 +16,7 @@ body {
 }
 #intro{
 	position:relative;
-	top:200px;
+	top:150px;
 	height:700px;
 	width:100%;
 	text-align: center;
@@ -70,6 +70,10 @@ body {
 }
 
 @media screen and (min-width: 1000px) {
+	body{
+		background-image:url("images/background.jpg");
+
+	}
     .box {
         width: 50%;
         height:100vh;
