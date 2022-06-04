@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/* This is a style sheet for Jose Marcel Santos's portfolio */
+body {
+	font-family:"Open Sans","segoe ui",Helvetica, Arial, Sans-Serif;
+	color: #FFF;
+	font-size:20px;
+	background-image:url("images/background.jpg");
+	background-size:cover; 
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
+	margin:0;
+	padding:0;
+}
+
+#intro{
+	position:relative;
+	top:150px;
+	height:400px;
+	width:100%;
+	text-align: center;
+}
+.name{
+	position:relative;
+	font-size:60px;
+	font-weight:bold;
+}
+.introtext{
+	position:relative;
+	left:10px;
+}
+a{
+	color:#FFF;
+}
